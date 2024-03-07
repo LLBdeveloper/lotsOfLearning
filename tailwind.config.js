@@ -7,7 +7,11 @@ export default {
     "./node_modules/tw-elements-react/dist/js/**/*.js"
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        'love': ['loveyou', 'sans-serif'],
+      },
+    },
   },
   darkMode: "class",
   plugins: [plugin],

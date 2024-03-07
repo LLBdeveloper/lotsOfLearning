@@ -7,6 +7,10 @@ body{
   background-color: #FFF89A;
 }
 
+@font-face {
+  font-family: 'loveyou';
+  src: url('./font/loveyou.otf') format('opentype');
+}
 
 
 /* 

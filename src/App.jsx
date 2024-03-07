@@ -7,21 +7,20 @@ import About from './pages/About'
 import Courses from './pages/Courses'
 import Contact from './pages/Contact'
 
-
 function App() {
 
   return (
     <>
-      <NavBar/>
-        <BrowserRouter>
+      <BrowserRouter>
+        <NavBar/>
           <Routes>
-            <Route path='/' element={<Home/>} />    
-            <Route path='/About' element={<About/>} />          
-            <Route path='/Courses' element={<Courses/>} />          
-            <Route path='/Contact' element={<Contact/>} />          
+            <Route path='/' element={<Home/>} />
+            <Route path='/about' element={<About/>} />      
+            <Route path='/courses' element={<Courses/>} />    
+            <Route path='/contact' element={<Contact/>} />
           </Routes>
-        </BrowserRouter>
-      <Footer/>
+        <Footer/>
+      </BrowserRouter>
     </>
   )
 }

@@ -1,8 +1,7 @@
 //npm install react-icons
-
-
 import  { useState } from 'react';
 import { AiOutlineClose, AiOutlineMenu } from 'react-icons/ai';
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
   // State to manage the navbar's visibility
@@ -15,26 +14,27 @@ const Navbar = () => {
 
   // Array containing navigation items
   const navItems = [
-    { id: 1, text: 'Home' },
-    { id: 2, text: 'Abot' },
-    { id: 3, text: 'Courses' },
-    { id: 4, text: 'Contact' },
+    { id: 1, text: 'Home', to: '/' },
+    { id: 2, text: 'About', to: '/About' },
+    { id: 3, text: 'Courses', to: '/Courses' },
+    { id: 4, text: 'Contact', to: '/Contact' },
   ];
 
   return (
-    <div className='bg-[#9ADCFF] flex justify-between items-center h-24 max-w-[1240px] mx-auto px-4 text-[#FF8AAE] text-xl font-bold rounded-2xl'>
+    <div className='bg-[#9ADCFF] pb-3 flex flex-col justify-between items-center h-44 max-w-[1240px] my-5 mx-auto px-4 text-[#FF8AAE]  font-bold rounded-2xl'>
       {/* Logo */}
-      <h1 className='w-full text-3xl font-extrabold text-[#FF8AAE]'>LOTS OF LEARNING</h1>
+      <h1 className='w-full text-center m-5 font-love tracking-widest  sm:text-4xl md:text-5xl lg:text-6xl text-[black]'>LOTS OF LEARNING</h1>
 
       {/* Desktop Navigation */}
       <ul className='hidden md:flex'>
         {navItems.map(item => (
-          <li
+          <Link
             key={item.id}
-            className='p-4 hover:bg-[#FF8AAE] rounded-xl m-2 cursor-pointer duration-300 hover:text-white'
+            to={item.to}
+            className='p-4 hover:bg-[#FF8AAE] mx-1 md:text-lg lg:text-2xl uppercase font-extrabold rounded-xl  cursor-pointer duration-300 hover:text-white'
           >
             {item.text}
-          </li>
+          </Link>
         ))}
       </ul>
 
