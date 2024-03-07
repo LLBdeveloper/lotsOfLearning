@@ -21,9 +21,9 @@ const Navbar = () => {
   ];
 
   return (
-    <div className='bg-[#9ADCFF] pb-3 flex flex-col justify-between items-center h-44 max-w-[1240px] my-5 mx-auto px-4 text-[#FF8AAE]  font-bold rounded-2xl'>
+    <div className='bg-[#9ADCFF] pb-3 flex flex-col justify-between items-center md:h-44 max-w-[1240px] my-5 mx-auto px-4 text-[#FF8AAE]  font-bold rounded-2xl'>
       {/* Logo */}
-      <h1 className='w-full text-center m-5 xs:font-love tracking-widest xs:text-xl sm:text-4xl md:text-5xl lg:text-6xl text-[black]'>LOTS OF LEARNING</h1>
+      <h1 className='w-full text-center m-5 sm:font-love tracking-widest xs:text-xl sm:text-4xl md:text-5xl lg:text-6xl text-[black]'>LOTS OF LEARNING</h1>
 
       {/* Desktop Navigation */}
       <ul className='hidden md:flex'>
@@ -60,7 +60,11 @@ const Navbar = () => {
             key={item.id}
             className='p-4 border-b rounded-xl hover:bg-[#FF8AAE] duration-300 hover:text-white cursor-pointer border-gray-600'
           >
+            <Link 
+              to={item.to}
+            >
             {item.text}
+            </Link>
           </li>
         ))}
       </ul>
