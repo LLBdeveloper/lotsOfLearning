@@ -1,3 +1,6 @@
+import CollapseButton from "../components/CollapseButton"
+import CollapseButton2 from "../components/CollapseButton2"
+import CollapseButton3 from "../components/CollapseButton3"
 
 
 function Home() {
@@ -7,7 +10,7 @@ function Home() {
       <img src="https://firebasestorage.googleapis.com/v0/b/lotsoflearning-54445.appspot.com/o/home.png?alt=media&token=6134a9d1-b092-4110-a577-dad1b6795981" className="max-h-[35rem] my-10 rounded-xl
       " alt="" />
 
-      <p className="xs:text-lg sm:text-xl lg:text-2xl md:w-[70%] font-semibold">Welcome to the world of bilingual kindergarten teaching! In our specialized English teaching course for kindergarten teachers, we offer you the necessary tools and strategies to enrich the learning of young children through the English language.</p>
+      <p className="my-10 xs:text-lg sm:text-xl lg:text-2xl md:w-[70%] font-semibold">Welcome to the world of bilingual kindergarten teaching! In our specialized English teaching course for kindergarten teachers, we offer you the necessary tools and strategies to enrich the learning of young children through the English language.</p>
 
       <p className="xs:text-lg sm:text-xl lg:text-2xl md:w-[70%] font-semibold">
         {`Don't wait any longer to enhance your career and offer your students a quality and enriching education. `}
@@ -16,6 +19,35 @@ function Home() {
     <p className="my-5  xs:text-lg sm:text-xl lg:text-2xl md:w-[70%] font-semibold">
       Enroll today in our English teaching course for kindergarten teachers and start transforming lives as early as kindergarten!
     </p>
+
+    
+    <div className="sm:flex justify-evenly items-start w-full my-20 ">
+      
+      <div className="flex flex-col justify-center items-center">
+        <img src="https://firebasestorage.googleapis.com/v0/b/lotsoflearning-54445.appspot.com/o/cloud.png?alt=media&token=a200d05e-3b44-4049-a1bd-2153959b8dd6" alt="" className="max-w-[15rem] max-h-[15rem]" />
+        <h3 className="text-2xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-[#FFB2A6] to-[#FF8AAE] uppercase">Pedagogical skills</h3>
+        <p className="text-center my-5 w-[80%] xs:text-md sm:text-lg lg:text-xl">Develop skills to design and adapt educational activities that promote the learning of English in an effective and fun way for kindergarten children.</p>
+        <CollapseButton/>
+      </div>
+      
+      <div className="flex flex-col justify-center items-center">
+        <img src="https://firebasestorage.googleapis.com/v0/b/lotsoflearning-54445.appspot.com/o/cloud.png?alt=media&token=a200d05e-3b44-4049-a1bd-2153959b8dd6" alt="" className="max-w-[15rem] max-h-[15rem]" />
+        <h3 className="text-2xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-[#FFB2A6] to-[#FF8AAE] uppercase">Classroom management</h3>
+        <p className="text-center my-5 w-[80%] xs:text-md sm:text-lg lg:text-xl">Acquire techniques to effectively manage the classroom and time, maintaining a positive and organized learning environment.</p>
+        <CollapseButton2/>
+
+      </div>
+      
+      <div className="flex flex-col justify-center items-center">
+        <img src="https://firebasestorage.googleapis.com/v0/b/lotsoflearning-54445.appspot.com/o/cloud.png?alt=media&token=a200d05e-3b44-4049-a1bd-2153959b8dd6" alt="" className="max-w-[15rem] max-h-[15rem]" />
+        <h3 className="text-2xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-[#FFB2A6] to-[#FF8AAE] uppercase">didactic resources</h3>
+        <p className="text-center my-5 w-[80%] xs:text-md sm:text-lg lg:text-xl">Develop skills to create and use innovative teaching materials and resources that facilitate the learning of English in the classroom.</p>
+        <CollapseButton3/>
+
+      </div>
+
+    </div>
+
 
     </div>
   )
