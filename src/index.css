@@ -2,6 +2,13 @@
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
 
+/* 
+#9ADCFF celeste
+#FFF89A amarillo
+#FFB2A6 rosa claro
+#FF8AAE rosa fuerte
+*/
+
 
 body{
   background-color: #FFF89A;
