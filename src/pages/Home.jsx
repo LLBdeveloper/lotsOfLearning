@@ -10,9 +10,12 @@ function Home() {
       <p className="xs:text-lg sm:text-xl lg:text-2xl md:w-[70%] font-semibold">Welcome to the world of bilingual kindergarten teaching! In our specialized English teaching course for kindergarten teachers, we offer you the necessary tools and strategies to enrich the learning of young children through the English language.</p>
 
       <p className="xs:text-lg sm:text-xl lg:text-2xl md:w-[70%] font-semibold">
-        {`Don't wait any longer to enhance your career and offer your students a quality and enriching education. Enroll today in our English teaching course for kindergarten teachers and start transforming lives as early as kindergarten!`}
+        {`Don't wait any longer to enhance your career and offer your students a quality and enriching education. `}
       </p>
 
+    <p className="my-5  xs:text-lg sm:text-xl lg:text-2xl md:w-[70%] font-semibold">
+      Enroll today in our English teaching course for kindergarten teachers and start transforming lives as early as kindergarten!
+    </p>
 
     </div>
   )
