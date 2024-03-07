@@ -1,5 +1,4 @@
-//npm install react-icons
-import  { useState } from 'react';
+import { useState } from 'react';
 import { AiOutlineClose, AiOutlineMenu } from 'react-icons/ai';
 import { Link } from 'react-router-dom';
 
@@ -10,6 +9,11 @@ const Navbar = () => {
   // Toggle function to handle the navbar's display
   const handleNav = () => {
     setNav(!nav);
+  };
+
+  // Function to handle closing the navbar when a link is clicked
+  const handleLinkClick = () => {
+    setNav(false);
   };
 
   // Array containing navigation items
@@ -31,6 +35,7 @@ const Navbar = () => {
           <Link
             key={item.id}
             to={item.to}
+            onClick={handleLinkClick} // Close the navbar when link is clicked
             className='p-4 hover:bg-[#FF8AAE] mx-1 md:text-lg lg:text-2xl uppercase font-extrabold rounded-xl  cursor-pointer duration-300 hover:text-white'
           >
             {item.text}
@@ -62,8 +67,9 @@ const Navbar = () => {
           >
             <Link 
               to={item.to}
+              onClick={handleLinkClick} // Close the navbar when link is clicked
             >
-            {item.text}
+              {item.text}
             </Link>
           </li>
         ))}
