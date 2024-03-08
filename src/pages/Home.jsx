@@ -4,8 +4,6 @@ import CollapseButton3 from "../components/CollapseButton3";
 import { useState, useEffect } from "react";
 import RiseLoader from "react-spinners/RiseLoader";
 
-
-
 function Home() {
   const [loading, setLoading] = useState(true);
 
@@ -18,8 +16,6 @@ function Home() {
   return (
     <>
       {loading ? (
-
-
         // <p className="text-5xl text-black">cargando...</p>
         <div className="text-center h-[20rem] flex justify-center items-center m-10">
           <RiseLoader
@@ -29,10 +25,6 @@ function Home() {
           data-testid="loader"
           />
         </div>
-
-
-
-
       ) : (
         <div className="bg-[#FFF89A] flex flex-col justify-center items-center m-10 rounded-xl">
           <h1 className="xs:text-lg sm:text-2xl lg:text-4xl md:w-[70%] my-20 font-extrabold text-center ">
