@@ -2,9 +2,9 @@ import { TEInput, TERipple, TETextarea } from "tw-elements-react";
 
 function Form() {
     return (
-        <div className="block w-[90%] sm:w-[50%] rounded-lg bg-white my-10 p-14 border-[#FF8AAE] border-4  shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700">
+        <div className="block w-[90%] sm:w-[50%] rounded-lg bg-white my-10 p-5 sm:p-14 border-[#FF8AAE] border-4  shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700">
                 <form>
-                <h2 className="my-10  xs:text-xl sm:text-2xl lg:text-3xl uppercase font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-[#FFB2A6] to-[#FF8AAE]">Contact Form</h2>
+                <h2 className="my-5  xs:text-xl sm:text-2xl lg:text-3xl uppercase font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-[#FFB2A6] to-[#FF8AAE]">Contact Form</h2>
                 {/* <!--Name input--> */}
                 <TEInput
                     type="text"

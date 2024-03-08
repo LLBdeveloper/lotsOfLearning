@@ -55,11 +55,11 @@ function Home() {
           </p>
 
           <div className="sm:flex justify-evenly items-start w-full my-20 ">
-            <div className="flex flex-col justify-center items-center">
+            <div className=" sm:mt-1  flex flex-col justify-center items-center">
               <img
                 src="https://firebasestorage.googleapis.com/v0/b/lotsoflearning-54445.appspot.com/o/cloud.png?alt=media&token=a200d05e-3b44-4049-a1bd-2153959b8dd6"
                 alt=""
-                className="max-w-[15rem] max-h-[15rem]"
+                className="xs:max-w-[7rem] sm:max-w-[15rem] "
               />
               <h3 className="text-2xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-[#FFB2A6] to-[#FF8AAE] uppercase">
                 Pedagogical skills
@@ -72,11 +72,11 @@ function Home() {
               <CollapseButton />
             </div>
 
-            <div className="flex flex-col justify-center items-center">
+            <div className="mt-20 sm:mt-1  flex flex-col justify-center items-center">
               <img
                 src="https://firebasestorage.googleapis.com/v0/b/lotsoflearning-54445.appspot.com/o/cloud.png?alt=media&token=a200d05e-3b44-4049-a1bd-2153959b8dd6"
                 alt=""
-                className="max-w-[15rem] max-h-[15rem]"
+                className="xs:max-w-[7rem] sm:max-w-[15rem] "
               />
               <h3 className="text-2xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-[#FFB2A6] to-[#FF8AAE] uppercase">
                 Classroom management
@@ -88,11 +88,11 @@ function Home() {
               <CollapseButton2 />
             </div>
 
-            <div className="flex flex-col justify-center items-center">
+            <div className="mt-20 sm:mt-1  flex flex-col justify-center items-center">
               <img
                 src="https://firebasestorage.googleapis.com/v0/b/lotsoflearning-54445.appspot.com/o/cloud.png?alt=media&token=a200d05e-3b44-4049-a1bd-2153959b8dd6"
                 alt=""
-                className="max-w-[15rem] max-h-[15rem]"
+                className="xs:max-w-[7rem] sm:max-w-[15rem] "
               />
               <h3 className="text-2xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-[#FFB2A6] to-[#FF8AAE] uppercase">
                 didactic resources
