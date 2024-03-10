@@ -68,6 +68,7 @@ const Navbar = () => {
             <Link 
               to={item.to}
               onClick={handleLinkClick} // Close the navbar when link is clicked
+              className='w-full block'
             >
               {item.text}
             </Link>

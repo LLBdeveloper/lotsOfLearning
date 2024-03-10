@@ -1,10 +1,10 @@
 
 function Footer() {
   return (
-    <footer className="bg-[#FFB2A6] text-center text-white dark:bg-neutral-600 w-full">
-        <div className="container pt-9 w-full">
+    <footer className="flex flex-col justify-center items-center bg-[#FFB2A6] text-center text-white dark:bg-neutral-600 w-full">
+        <div className="container pt-9 w-full ">
         <div className="mb-9 flex justify-center  w-full">
-            <a className="mr-9 text-neutral-800 hover:bg-[#FF8AAE] hover:text-white p-2 rounded dark:text-neutral-200">
+            <a className=" mr-9 text-neutral-800 hover:bg-[#FF8AAE] hover:text-white p-2 rounded dark:text-neutral-200">
             <svg
                 xmlns="http://www.w3.org/2000/svg"
                 className="h-4 w-4"
@@ -71,7 +71,7 @@ function Footer() {
 
         {/* <!--Copyright section--> */}
         <div
-        className="bg-[#FF8AAE] p-4 text-center text-neutral-700 dark:bg-neutral-700 dark:text-neutral-200">
+        className="w-screen bg-[#FF8AAE] p-4 text-center text-neutral-700 dark:bg-neutral-700 dark:text-neutral-200">
         © 2024 Copyright |
             <a
             className="text-neutral-800 dark:text-neutral-400 hover:bg-[#FF8AAE] hover:text-white"

@@ -20,7 +20,7 @@ export default function ContactForm() {
       {
         loading ? (
           <div className="h-[20rem] flex flex-col justify-center items-center m-16 ">
-            <p className="xs:text-2xl sm:text-5xl font-bold my-20  text-black">Loading . . . </p>
+            <p className="xs:text-2xl sm:text-5xl font-bold my-20  text-black">LOADING</p>
             <PacmanLoader
               loading={loading}
               size={50}
