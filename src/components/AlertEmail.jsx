@@ -15,7 +15,7 @@ function AlertEmail() {
                 <span className="ml-1">
                 Thank you for your interest, your query was sent successfully. 
                 </span>
-                <span> During the next few hours you will be contacted via email or the method detailed in the query.</span>
+                <span> During the next few hours you will be contacted via email or the method detailed in the query. </span>
                 </div>
             </TEAlert>
         </div>
