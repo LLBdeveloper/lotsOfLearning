@@ -100,7 +100,7 @@ function Home() {
               <p className="text-center my-5 w-[80%] xs:text-md sm:text-lg lg:text-xl">
                 Develop skills to create and use innovative teaching materials
                 and resources that facilitate the learning of English in the
-                classroom.
+                classroom. 
               </p>
               <CollapseButton3 />
             </div>
